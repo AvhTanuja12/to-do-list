@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    background-color: aliceblue;
+  }
+
+
+  p{
+    background-color: blueviolet;
+    color:white;
+  }
+  h1 {
+    text-align:center;
+    padding: 2vh;
+    
+  }
+  
+  .add-todo-container {
+    display: flex;
+    justify-content:center;
+    gap: 4vw;
+    padding: 6vh 0;
+  }
+  .add-todo-container input {
+    width: 20vw; 
+    border: 2px solid black;
+  }
+  .add-todo-container input,
+  .add-todo-container button {
+    padding: 8px 12px;
+    border: 2px solid black;
+  }
+  
+  .todos {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    align-items: center;
+
+  }
+  
+  .todo {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
